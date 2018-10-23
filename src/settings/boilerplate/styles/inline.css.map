@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAA;EACJ,KAAK,ECFC,OAAO;CDGd;;AAED,AAAA,SAAS,CAAA;EACP,WAAW,EAAE,GAAG;CACjB;;AAED,AAAA,OAAO,CAAA;EACL,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "inline.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "inline.css"
+}

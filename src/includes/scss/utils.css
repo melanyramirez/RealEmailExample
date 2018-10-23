@@ -1,0 +1,12 @@
+@media only screen and (max-width: 621px) {
+  *[class=hide] {
+    display: none !important;
+    width: 0px !important;
+  }
+  *[class=show] {
+    width: 100% !important;
+    height: auto !important;
+    display: table !important;
+  }
+}
+/*# sourceMappingURL=utils.css.map */

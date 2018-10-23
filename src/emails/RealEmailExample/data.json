@@ -1,0 +1,37 @@
+{
+  "header": {
+    "isi": "Please see Important Safety Information, including Boxed Warning, below. Please see full Prescribing Information.",
+    "customer": "Dear <First Name Last Name>, <Designation> OR Dear <Healthcare Provider>",
+    "title": "Get free VRAYLAR&reg; samples",
+    "info": "Request samples from a range of dosing options for patient trial, and help treat your adult patients' acute manic or mixed episodes of bipolar I disorder.",
+    "question": "Have an appropriate bipolar I patient in mind?"
+  },
+  "content":{
+    "title": "Tell Us What You Think in 5 Minutes or Less",
+    "samples": "For VRAYLAR samples, saving cards and Patient Starter Kits:"
+  },
+  "social_icons": [
+      {
+        "img": "icon-facebook.png",
+        "url": "#",
+        "width": "35",
+        "height": "29"
+      },
+      {
+        "img": "icon-twitter.png",
+        "url": "#",
+        "width": "35",
+        "height": "29"
+      },
+      {
+        "img": "icon-instagram.png",
+        "url": "#",
+        "width": "35",
+        "height": "29"
+      }
+    ],
+    "comments": [
+      "We created this template based on what emails developers needs, it is not an easy task but we bring you help",
+      "It is a long trip that never ends if you have any suggestion let us know"
+    ]
+}

@@ -1,0 +1,34 @@
+table(width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
+  tr
+    td(align="center" valign="top" style="font-size:0; padding: 20px; border-bottom: 1px solid #636466;" bgcolor="#ffffff")
+      span(class="black f_bold" style="font-size: 14px;  margin: 0;").
+        #{header.isi}
+  tr
+    td(align="center" valign="top" style="font-size:0; padding: 20px;" bgcolor="#ffffff")
+      span(class="grey f_normal" style="font-size: 13px;  margin: 0;").
+        #{header.customer}
+  tr
+    td(align="center" valign="top" style="font-size:0; padding: 0px; background-image: url('./img/hero-bg.jpg'); background-repeat: no-repeat; background-position: top;" bgcolor="#702277")
+      table(align="left" width="300" class="mobile-table")&attributes(tableAtt)
+        tr
+          td(align="left" valign="top" style=`font-family: ${fallback}; font-size:30px; line-height: 32px; padding:30px;` class="mobile-center f_bold")
+            h1( class="purple f_bold" style="font-size: 30px; margin: 0;").
+              !{header.title}
+      table(align="right" width="300" class="mobile-hide")&attributes(tableAtt)
+        tr
+          td(class="f_normal" align="left" valign="top" style=`font-family: ${fallback}; font-size: 48px; line-height: 20px; padding:20px;`)
+            span(class="white f_normal" style="font-size: 15px;  margin: 0;").
+              #{header.info}
+  tr
+    td(align="center" valign="top" style="height:20px; font-size:0; padding: 0px;" bgcolor="#ffffff")
+      table(align="left" width="300" class="mobile-table")&attributes(tableAtt)
+        tr
+          td(align="left" valign="top" style=`font-family: ${fallback}; font-size:30px; line-height: 32px; padding:30px; background-image: url('./img/hero-bg-bottom.jpg'); background-repeat: no-repeat; background-position: top;` class="mobile-center f_bold")
+      table(align="right" width="300" class="mobile-hide")&attributes(tableAtt)
+        tr
+          td(class="f_normal" align="right" valign="top" style=`font-family: ${fallback}; font-size: 48px; line-height: 20px;`)
+            table(align="right")&attributes(tableAtt)
+              tr
+                td(class="f_normal" style=`border-bottom: 3px solid #666666; font-family: ${fallback}; font-size: 15px; padding: 20px 10px 15px 0px`)
+                  span(class="green f_bold" style="font-size: 19px;  margin: 0; text-transform: uppercase;").
+                    #{header.question}

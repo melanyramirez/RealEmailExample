@@ -10,6 +10,9 @@
     "title": "Tell Us What You Think in 5 Minutes or Less",
     "samples": "For VRAYLAR samples, saving cards and Patient Starter Kits:"
   },
+  "footer":{
+    "trademark": "Allergan® and its design are trademarks"
+  },
   "social_icons": [
       {
         "img": "icon-facebook.png",

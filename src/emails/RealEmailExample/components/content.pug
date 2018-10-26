@@ -14,7 +14,12 @@ table(width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
           td(align="left" style="padding: 10px 0 15px 0;")
             table(width="280px")&attributes(tableAtt)
               tr
-                //- +button({bgcolor:'#fec844', radius:30, link: "#", font_family: fallback, text: "Offer Feedback"})(style=`font-size: 18px; text-decoration: none;  background-color: #fec844; padding: 15px 30px; display: block;`)
+                //- +button({bgcolor:'#fec844', radius:30, link: "#", font_family: titles_fonts, text: "Click here"})(style=`font-size: 20px; text-decoration: none;  background-color: #fec844; padding: 10px 10px 10px 0px; display: block;`)
                 td(align="center" style="border-radius: 30px;" bgcolor="#fec844")
-                  a(href="#" target="_blank" class="black f_bold" style=`font-size: 20px; font-family: ${fallback};  text-transform: uppercase; text-decoration: none; border-radius: 30px; background-color: #fec844; padding: 15px 30px; display: block;`).
-                    click here
+                  table(align="center")&attributes(tableAtt)
+                    tr
+                      td
+                        a(href="#" target="_blank" class="gray_button f_bold" style=`font-size: 20px; font-family: ${titles_fonts};  text-transform: uppercase; text-decoration: none; border-radius: 30px; background-color: #fec844; padding: 10px 10px 10px 0px; display: block;`).
+                          click here
+                      td
+                        img(src=img_path+"arrow.png" width="9" height="16")

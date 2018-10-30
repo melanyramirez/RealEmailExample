@@ -1,6 +1,19 @@
 table(width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
   tr
-    td(align="center" valign="top" style="font-size:0; padding: 0px;" bgcolor="#ffffff")
+    td(align="center" valign="top" style="height:20px; font-size:0; padding: 0px;" bgcolor="#ffffff")
+      table(align="right" width="300")&attributes(tableAtt)
+        tr
+          td(class="f_normal" align="right" valign="top" style=`font-family: ${fallback}; font-size: 48px; line-height: 20px;`)
+            table(align="right")&attributes(tableAtt)
+              tr
+                td(class="f_normal" style=`font-family: ${fallback}; font-size: 15px; padding: 20px 10px 15px 0px`)
+                  span(class="green f_bold" style="font-size: 19px;  margin: 0; text-transform: uppercase;").
+                    #{header.question}
+              tr
+                td(align="center" valign="top" style="font-size:0;" bgcolor="#ffffff")
+                  img(src=img_path+"line-3px.jpg" width="294" height="3")
+  tr
+    td(style="font-size:0; padding: 0px;" bgcolor="#ffffff")&attributes(tdCenter)
       table(align="left" width="300")&attributes(tableAtt)
         tr
           td(align="left" valign="top" style=`font-family: ${fallback}; font-size:30px; line-height: 32px; padding:10px 0px 10px 30px;` class="f_bold")
@@ -14,8 +27,12 @@ table(width=max_w align="center" class="deviceWidth")&attributes(tableAtt)
           td(align="left" style="padding: 10px 0 15px 0;")
             table(width="280px")&attributes(tableAtt)
               tr
-                //- +button({bgcolor:'#fec844', radius:30, link: "#", font_family: fallback, text: "Offer Feedback"})(style=`font-size: 18px; text-decoration: none;  background-color: #fec844; padding: 15px 30px; display: block;`)
-                td(align="center" style="border-radius: 30px;" bgcolor="#fec844")
-                  a(href="#" target="_blank" class="black f_bold" style=`font-size: 20px; font-family: ${fallback};  text-transform: uppercase; text-decoration: none; border-radius: 30px; background-color: #fec844; padding: 15px 30px; display: block;`).
-                    click here
-
+                td(style="border-radius: 30px;" bgcolor="#fec844")&attributes(tdCenter)
+                  // +button({bgcolor:'#fec844', radius:30, link: "#", font_family: titles_fonts, text: "Click here"})(style=`font-size: 20px; text-decoration: none;  background-color: #fec844; padding: 10px 10px 10px 0px; display: block;`)
+                  table(align="center")&attributes(tableAtt)
+                    tr
+                      td
+                        a(href="#" target="_blank" class="gray_button f_bold" style=`font-size: 20px; font-family: ${titles_fonts};  text-transform: uppercase; text-decoration: none; border-radius: 30px; background-color: #fec844; padding: 10px 10px 10px 0px; display: block;`).
+                          click here
+                      td
+                        img(src=img_path+"arrow.png" width="9" height="16")
